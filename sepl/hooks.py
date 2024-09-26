@@ -144,6 +144,11 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Products": {
+        "before_save": "sepl.sepl.doctype.products.products.calculate_child_table_totals"
+    }
+}
 
 # Scheduled Tasks
 # ---------------

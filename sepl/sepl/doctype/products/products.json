@@ -1,0 +1,244 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:product_name",
+ "creation": "2024-09-26 23:28:21.068387",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_date",
+  "column_break_hlns",
+  "product_name",
+  "section_break_uesn",
+  "item_details",
+  "material_cost",
+  "section_break_ybzs",
+  "material_operating_margins",
+  "material_tool_charges",
+  "insurance",
+  "transportation",
+  "material_wastage",
+  "miscellaneous",
+  "column_break_ncvq",
+  "overhead_cost",
+  "total_material_and_over_head_cost",
+  "material_discount",
+  "final_material_cost",
+  "section_break_qpml",
+  "labour_details",
+  "labour_cost",
+  "section_break_rjjx",
+  "labour_operating_margins",
+  "labour_tool_charges",
+  "engineering_charges",
+  "supervision_charges",
+  "admin_charges",
+  "labour_miscellaneous",
+  "column_break_zssw",
+  "total_labour_overhead",
+  "total_overhead_and_labour_cost",
+  "labour_discount",
+  "final_labour_cost",
+  "section_break_cyih",
+  "final_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_details",
+   "fieldtype": "Table",
+   "label": "Item Details",
+   "options": "Item Details"
+  },
+  {
+   "fieldname": "material_cost",
+   "fieldtype": "Float",
+   "label": "Material Cost"
+  },
+  {
+   "fieldname": "section_break_ybzs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "material_discount",
+   "fieldtype": "Percent",
+   "label": "Material Discount"
+  },
+  {
+   "fieldname": "material_operating_margins",
+   "fieldtype": "Float",
+   "label": "Material Operating Margins"
+  },
+  {
+   "fieldname": "material_tool_charges",
+   "fieldtype": "Float",
+   "label": "Material Tool Charges"
+  },
+  {
+   "fieldname": "insurance",
+   "fieldtype": "Float",
+   "label": "Insurance"
+  },
+  {
+   "fieldname": "transportation",
+   "fieldtype": "Float",
+   "label": "Transportation"
+  },
+  {
+   "fieldname": "material_wastage",
+   "fieldtype": "Float",
+   "label": "Material Wastage"
+  },
+  {
+   "fieldname": "miscellaneous",
+   "fieldtype": "Float",
+   "label": "Miscellaneous"
+  },
+  {
+   "fieldname": "column_break_ncvq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overhead_cost",
+   "fieldtype": "Float",
+   "label": "Overhead Cost"
+  },
+  {
+   "fieldname": "total_material_and_over_head_cost",
+   "fieldtype": "Float",
+   "label": "Total Material And Over head cost"
+  },
+  {
+   "fieldname": "section_break_qpml",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "labour_details",
+   "fieldtype": "Table",
+   "label": "Labour details",
+   "options": "Labour Details Table"
+  },
+  {
+   "fieldname": "labour_cost",
+   "fieldtype": "Float",
+   "label": "Labour Cost"
+  },
+  {
+   "fieldname": "section_break_rjjx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "labour_discount",
+   "fieldtype": "Percent",
+   "label": "Labour Discount"
+  },
+  {
+   "fieldname": "labour_operating_margins",
+   "fieldtype": "Float",
+   "label": "Labour Operating Margins"
+  },
+  {
+   "fieldname": "labour_tool_charges",
+   "fieldtype": "Float",
+   "label": "Labour Tool Charges"
+  },
+  {
+   "fieldname": "engineering_charges",
+   "fieldtype": "Float",
+   "label": "Engineering Charges"
+  },
+  {
+   "fieldname": "column_break_zssw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supervision_charges",
+   "fieldtype": "Float",
+   "label": "Supervision Charges"
+  },
+  {
+   "fieldname": "admin_charges",
+   "fieldtype": "Float",
+   "label": "Admin Charges"
+  },
+  {
+   "fieldname": "labour_miscellaneous",
+   "fieldtype": "Float",
+   "label": "Labour Miscellaneous"
+  },
+  {
+   "fieldname": "total_labour_overhead",
+   "fieldtype": "Float",
+   "label": "Total labour Overhead"
+  },
+  {
+   "fieldname": "total_overhead_and_labour_cost",
+   "fieldtype": "Float",
+   "label": "Total Overhead and Labour cost"
+  },
+  {
+   "fieldname": "section_break_cyih",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "final_cost",
+   "fieldtype": "Float",
+   "label": "Final Cost"
+  },
+  {
+   "fieldname": "final_material_cost",
+   "fieldtype": "Float",
+   "label": "Final Material Cost"
+  },
+  {
+   "fieldname": "final_labour_cost",
+   "fieldtype": "Float",
+   "label": "Final Labour cost"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_hlns",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "transaction_date",
+   "fieldtype": "Date",
+   "label": "Transaction date"
+  },
+  {
+   "fieldname": "section_break_uesn",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-27 00:52:51.743639",
+ "modified_by": "Administrator",
+ "module": "Sepl",
+ "name": "Products",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
